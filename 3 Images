@@ -1,0 +1,42 @@
+HTML FILE 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> 3 images </title>
+</head>
+<link rel="stylesheet" href="StyleSheet.css">
+<body>
+    
+    <h1> City Life </h1>
+    <img id="a" src="City life.png" alt="City Life"/>
+    
+    
+    
+    <h1> Gaming </h1>
+    <img id="b" src="Esport.jpg" alt="Esport"/>
+    
+    
+    
+    <h1> Nature </h1>
+    <img id="c" src="Nature.jpg" alt="Nature"/>
+</body>
+</html>
+
+
+- CSS CODE -
+
+#a{
+    filter: grayscale(100%);
+    width: 50%;
+    height: 15%;
+}
+
+#b{
+    filter: saturate(40%);
+}
+
+#c{
+    Filter: blur( 40 %);
+}
